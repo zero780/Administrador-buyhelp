@@ -6,7 +6,6 @@ import { AppComponent } from './app.component';
 import { MainComponent } from './index/main/main.component';
 import { HeaderComponent } from './shared/header/header.component';
 import { FooterComponent } from './shared/footer/footer.component';
-//import { HelloComponent } from './hello.component';
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule ],
