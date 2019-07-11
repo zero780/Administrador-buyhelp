@@ -475,6 +475,7 @@ li[class^="icon-"].icon-large:before, li[class*=" icon-"].icon-large:before {
 .navbar-inner{
 	background: #366b72;
 	width: 100%;
+  co: 100px;
 	
 	
 	border: 0px solid #000000;
