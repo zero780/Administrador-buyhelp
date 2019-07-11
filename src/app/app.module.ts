@@ -28,6 +28,11 @@ import { ListaMascotasComponent } from './secundarias/lista-mascotas/lista-masco
 
 import { ReportesComponent } from './secundarias/reportes/reportes.component';
 
+import { UsuariosFechaComponent } from './secundarias/usuarios-fecha/usuarios-fecha.component';
+
+import { ProductosCategoriaComponent } from './secundarias/productos-categoria/productos-categoria.component';
+import { VentasPordiaComponent } from './secundarias/ventas-pordia/ventas-pordia.component';
+
 
 
 const rutas: Routes = [
@@ -41,12 +46,15 @@ const rutas: Routes = [
  { path: 'lista_productos', component: ListaProductosComponent },
  { path: 'lista_ventas', component: ListaVentasComponent },
  { path: 'lista_mascotas', component: ListaVentasComponent },
- { path: 'reportes', component: ReportesComponent }
+ { path: 'reportes', component: ReportesComponent },
+ { path: 'usuarios_fecha', component: UsuariosFechaComponent },
+ { path: 'productos_categoria', component: ProductosCategoriaComponent },
+ { path: 'ventas_pordia', component: VentasPordiaComponent }
 ];
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule,RouterModule.forRoot(rutas) ],
-  declarations: [ AppComponent, MainComponent, HeaderComponent, FooterComponent, AdminUsuariosComponent, GestionProcesosComponent, SolicitudesVentaComponent, PublicacionMascotasComponent, HistorialSolicitudesComponent, PanelControlComponent, ListaProductosComponent, ListaVentasComponent, ListaMascotasComponent, ReportesComponent ],
+  declarations: [ AppComponent, MainComponent, HeaderComponent, FooterComponent, AdminUsuariosComponent, GestionProcesosComponent, SolicitudesVentaComponent, PublicacionMascotasComponent, HistorialSolicitudesComponent, PanelControlComponent, ListaProductosComponent, ListaVentasComponent, ListaMascotasComponent, ReportesComponent, UsuariosFechaComponent, ProductosCategoriaComponent, VentasPordiaComponent ],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
