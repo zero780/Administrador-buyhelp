@@ -474,7 +474,7 @@ li[class^="icon-"].icon-large:before, li[class*=" icon-"].icon-large:before {
 /*Esta hoja sirve para agregar cambios de estilo. No modificar base.css*/
 .navbar-inner{
 	background: #366b72;
-	width: 100%
+	width: 100%;
 	
 	
 	border: 0px solid #000000;
