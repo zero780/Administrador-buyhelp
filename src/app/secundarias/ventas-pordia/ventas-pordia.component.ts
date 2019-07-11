@@ -27,19 +27,19 @@ export class VentasPordiaComponent implements OnInit {
 			else if(i===0){ return "100";}
 		});
 
-		var xscale = d3.scale.linear()
+		var xscale = d3.scaleLinear()
 						.domain([10,250])
 						.range([0,722]);
 
-		var yscale = d3.scale.linear()
+		var yscale = d3.scaleLinear()
 						.domain([0,categories.length])
 						.range([0,480]);
 
-		var colorScale = d3.scale.quantize()
+		var colorScale = d3.scaleQuantize()
 						.domain([0,categories.length])
 						.range(colors);
 
-		var canvas = d3.select('#wrapper')
+		var canvas = d3.select("section")
 						.append('svg')
 						.attr({'width':900,'height':550});
 
@@ -100,7 +100,7 @@ export class VentasPordiaComponent implements OnInit {
 						    .duration(1000) 
 						    .attr("width", function(d) {return xscale(d); });
 
-		var transitext = d3.select('#bars')
+		var transitext = d3.select("#bars")
 							.selectAll('text')
 							.data(dollars)
 							.enter()
