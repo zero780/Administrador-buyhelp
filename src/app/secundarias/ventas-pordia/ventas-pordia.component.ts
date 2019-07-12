@@ -39,17 +39,17 @@ export class VentasPordiaComponent implements OnInit {
 						.domain([0,categories.length])
 						.range(colors);
 
-		var canvas = d3.select("section")
+		var canvas = d3.select("#wrapper")
 						.append('svg')
 						.attr({'width':900,'height':550});
 
 		var grids = canvas.append('g')
 						  .attr('id','grid')
 						  .attr('transform','translate(150,10)')
-						  .selectAll('line')
+						  .selectAll("line")
 						  .data(grid)
 						  .enter()
-						  .append('line')
+						  .append("line")
 						  .attr({'x1':function(d,i){ return i*30; },
 								 'y1':function(d){ return d.y1; },
 								 'x2':function(d,i){ return i*30; },

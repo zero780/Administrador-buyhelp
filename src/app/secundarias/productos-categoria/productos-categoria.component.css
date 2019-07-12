@@ -8,6 +8,7 @@
 svg {
 	width: 80%;
 	height: 100%;
+  overflow:visible;
 }
 
 path.slice{
@@ -19,5 +20,9 @@ polyline{
 	stroke: black;
 	stroke-width: 2px;
 	fill: none;
+}
+
+#svg_pastel{
+  overflow:visible;
 }
 
