@@ -12,7 +12,7 @@ export class ProductosCategoriaComponent implements OnInit {
 
   ngOnInit() {
 
-
+/*
     var svg = d3.select("#pastel_categorias")
 	.append("svg")
 	.append("g")
@@ -67,7 +67,7 @@ d3.select(".randomize")
 
 function change(data) {
 
-	/* ------- PIE SLICES -------*/
+
 	var slice = svg.select(".slices").selectAll("path.slice")
 		.data(pie(data), key);
 
@@ -90,7 +90,7 @@ function change(data) {
 	slice.exit()
 		.remove();
 
-	/* ------- TEXT LABELS -------*/
+	
 
 	var text = svg.select(".labels").selectAll("text")
 		.data(pie(data), key);
@@ -131,7 +131,7 @@ function change(data) {
 	text.exit()
 		.remove();
 
-	/* ------- SLICE TO TEXT POLYLINES -------*/
+
 
 	var polyline = svg.select(".lines").selectAll("polyline")
 		.data(pie(data), key);
@@ -154,7 +154,7 @@ function change(data) {
 	
 	polyline.exit()
 		.remove();
-};
+  };*/
   }
 
 }

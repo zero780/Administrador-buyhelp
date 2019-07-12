@@ -12,7 +12,7 @@ export class VentasPordiaComponent implements OnInit {
 
   ngOnInit() {
 
-    		var categories= ['','Accesorios', 'Audio', 'Fotografía', 'Telefonía', 'Computadores','eBook','Artilugios','GPS y Navegación','Entretenemiento','Electrónica','Audio Portable','Video Portable','Seguridad','Servicios','Televisión','Vehículos'];
+  /*  		var categories= ['','Accesorios', 'Audio', 'Fotografía', 'Telefonía', 'Computadores','eBook','Artilugios','GPS y Navegación','Entretenemiento','Electrónica','Audio Portable','Video Portable','Seguridad','Servicios','Televisión','Vehículos'];
 
 		var dollars = [213,209,190,179,156,209,190,179,213,209,190,179,156,209,190,190];
 
@@ -106,7 +106,7 @@ export class VentasPordiaComponent implements OnInit {
 							.enter()
 							.append('text')
 							.attr({'x':function(d) {return xscale(d)-200; },'y':function(d,i){ return yscale(i)+35; }})
-							.text(function(d){ return d+"$"; }).style({'fill':'#fff','font-size':'14px'});
+							.text(function(d){ return d+"$"; }).style({'fill':'#fff','font-size':'14px'});*/
 
 
 

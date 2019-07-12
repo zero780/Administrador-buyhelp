@@ -31,6 +31,7 @@ import { ReportesComponent } from './secundarias/reportes/reportes.component';
 import { UsuariosFechaComponent } from './secundarias/usuarios-fecha/usuarios-fecha.component';
 
 import { ProductosCategoriaComponent } from './secundarias/productos-categoria/productos-categoria.component';
+
 import { VentasPordiaComponent } from './secundarias/ventas-pordia/ventas-pordia.component';
 
 

@@ -5,3 +5,14 @@
 	#xaxis text, #yaxis text {
 		font-size: 12px;
 	}
+
+  /*#barras_ventas{
+    width:600px;
+    height:400px;
+ 
+  }*/
+
+  #wrapper{
+    text-align: center;
+    align-content: center;
+  }
